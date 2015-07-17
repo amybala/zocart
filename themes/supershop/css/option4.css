@@ -1,0 +1,254 @@
+/*** Header Option4 ***/
+
+/* Menuontop */
+.option4 #container-home-top.menuontop {
+    margin: 0;
+    width: 100%;
+}
+.option4 #container-home-top.menuontop .main-top-menus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 99999;
+    height: 40px;
+    width: 100%;
+}
+#index.option4 #container-home-top.menuontop .home-top {
+    overflow: visible;
+}
+.option4 #container-home-top.menuontop .displayHomeTopMenu {
+    margin: 0;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .option4 #container-home-top.menuontop .displayHomeTopMenu {
+        max-width: 662px;
+    }    
+}
+.option4 #container-home-top.menuontop .home-slider-left,
+.option4 #container-home-top .vertical-megamenus ul.megamenus-ul {
+    display: none;
+}
+@media (min-width: 768px) {
+    .option4 #container-home-top .vertical-menu-content {
+        display: block;
+    }
+}
+.option4 #container-home-top .vertical-megamenus ul.megamenus-ul.ontop {
+    display: block;
+    border: 1px solid #E8E8E8;
+    border-width:0 1px 1px 1px;
+    margin-bottom: 0;
+    background: #FFF;
+    z-index: 9999;
+} 
+.option4 #container-home-top .vertical-megamenus h4.title {
+    font-size: 0;
+}
+.option4 #container-home-top .vertical-megamenus h4.title .icon-reorder:before {
+    font-size: 14px;
+}
+.option4 #container-home-top .home-page,
+.option4 #container-home-top .other-pages {
+    width: 72px;
+}
+.option4 #container-home-top .collapse.vertical-menu-content {
+    width: 270px;
+}
+
+.option4 #container-home-top.menuontop .displayHomeSlider {
+    padding-left: 15px;
+    margin-left: 0;
+}
+@media (min-width: 1200px) {
+    #index.option4 #container-home-top.menuontop {
+        padding-bottom: 0;
+    }
+}
+.option4 #container-home-top .custom-banners {
+    margin-top: 0;
+}
+.option4 #container-home-top .custom-banners .custom-banner {
+    padding-left: 0;
+    padding-right: 0;
+    float: right;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+   .option4 #container-home-top .custom-banners .custom-banner {
+        height: 313px;
+        padding-left: 10px;    
+    } 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .option4 #container-home-top .custom-banners .custom-banner {
+        height: 240px;
+        padding-left: 10px;    
+    } 
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .option4 #nav_topmenu ul.nav > li > a {
+        padding: 0 7px!important;
+    }
+}
+.option4 #container-home-top .custom-banners img.img-responsive {
+    margin: 0;
+    float: right;
+}
+.option4 #container-home-top #homepage-slider {
+    margin: 0;
+    float: right;
+}
+.option4 #container-home-top #homepage-slider {
+    float: left;
+}
+.option4 #container-home-top .custom-banners {
+    margin-left: 0;
+    margin-right: 0;
+}
+@media (min-width: 1200px) {
+    .option4 #container-home-top #homepage-slider {
+        width: 900px;
+    } 
+    .option4 #container-home-top .custom-banner {
+        width: 260px;
+        float: right;
+    }
+}
+@media (max-width: 767px) {
+    .option4 #container-home-top .custom-banners {
+        display: none;
+    }
+}
+/* Module: Discount product - Deal of the day */
+.option4 #discountproducts .heading-title {
+    border: 1px solid #E8E8E8;
+    line-height: 24px;
+    font-size: 18px;
+    padding: 8px 15px;
+    margin: 0 0 10px 0;
+}
+@media (max-width: 480px) {
+    .option4 #discountproducts .heading-title {
+        display: inline-block;
+    }    
+}
+.option4 #discountproducts .heading-title .mainFont {
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+#discountproducts_list .owl-nav .owl-next, 
+#discountproducts_list .owl-nav .owl-prev {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    color: #FFF;
+    display: block;
+    background: rgba(9,9,9,0.4);
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;   
+    opacity: 0;
+}
+#discountproducts_list:hover .owl-nav .owl-next, 
+#discountproducts_list:hover .owl-nav .owl-prev {
+    opacity: 1;
+} 
+#discountproducts_list .owl-nav .owl-prev {
+    left: 0;
+}
+#discountproducts_list .owl-nav .owl-next {
+    right: 0;
+}
+#discountproducts_list .owl-nav .owl-next:before, 
+#discountproducts_list .owl-nav .owl-prev:before {
+    font-size: 14px;
+    font-family: FontAwesome;
+    content: "\f104";
+}
+#discountproducts_list .owl-nav .owl-next:before {
+    content: "\f105";
+}
+#discountproducts_list .owl-nav .owl-next:hover, 
+#discountproducts_list .owl-nav .owl-prev:hover {
+    background: #ff9933;
+}
+h2.heading-title .coundown-title {
+    text-transform: uppercase;
+}
+h2.heading-title .coundown-title span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+h2.heading-title .coundown-title i.icon-time {
+    font-size: 22px;
+    padding: 0 5px 0 10px; 
+    color: #ff9933;
+}
+
+/* Module: Image slide home page */
+#homepage-slider .bx-wrapper .bx-controls-direction a.bx-prev,
+#homepage-slider .bx-wrapper .bx-controls-direction a.bx-next {
+    visibility: hidden;
+}
+#homepage-slider:hover .bx-wrapper .bx-controls-direction a.bx-prev,
+#homepage-slider:hover .bx-wrapper .bx-controls-direction a.bx-next {
+    visibility: visible;
+}
+@media (max-width: 767px) {
+    .option4 #discountproducts_list ul.product_list.grid > li {
+        width: 100%;
+    }
+}
+
+/* Module: Group category */
+.option4 .category-list li a {position: relative;}
+.option4 .category-list li a:hover:after, 
+.option4 .category-list li.active a:after {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    z-index: 9;
+    width: 1px;
+    height: 100%;
+    content: "";
+    display: inline-block;
+    background: #FFF;
+}
+/* Module: Vertical megamenus */
+@media (min-width: 1200px) {
+    .vertical-megamenus ul.megamenus-ul li.parent:hover .dropdown-menu {
+        max-width: 901px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .vertical-megamenus ul.megamenus-ul li.parent:hover .dropdown-menu {
+        max-width: 671px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .vertical-megamenus ul.megamenus-ul li.parent:hover .dropdown-menu {
+        max-width: 900px;
+    }
+}
+/* Module: mega menu */
+@media (min-width: 768px) {
+    .option4 #nav_topmenu .navbar-nav > li:first-child:hover > .dropdown-menu {
+        left: auto!important; 
+    }
+}
+.option4 header #languages-block-top {
+    border-right: none;
+} 
+.option4 .vertical-megamenus h4.title{
+	position:relative;
+}
+.option4 .vertical-megamenus .icon-reorder{
+	position: absolute;	
+	top: 12px;
+}

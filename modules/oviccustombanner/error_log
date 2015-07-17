@@ -1,0 +1,5 @@
+[15-Jan-2015 08:06:30 Europe/Paris] PHP Notice:  Undefined index: itemId in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 174
+[15-Jan-2015 08:06:30 Europe/Paris] PHP Fatal error:  Class 'OvicCustomBannerv' not found in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 175
+[15-Jan-2015 08:11:31 Europe/Paris] PHP Fatal error:  Call to undefined method OvicCustomBannerAjax::loadBannerByLang() in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 13
+[29-Jan-2015 03:11:02 Europe/Paris] PHP Notice:  Undefined variable: bannerName in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 78
+[09-Feb-2015 04:54:23 Europe/Paris] PHP Notice:  Undefined variable: bannerName in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 78
