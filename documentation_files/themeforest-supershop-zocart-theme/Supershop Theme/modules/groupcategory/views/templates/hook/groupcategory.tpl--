@@ -1,0 +1,16 @@
+{if isset($modules) && $modules}
+    {foreach from=$modules item=module name=modules}
+        {if $module.layout == 'default'}
+			{$module.sections}
+        {/if}
+    {/foreach}    
+{/if}
+{addJsDefL name=no_product_load_more}{l s='This category is no more products to load' js=1}{/addJsDefL}
+{addJsDefL name=min_item}{l s='Please select at least one product' js=1}{/addJsDefL}
+{addJsDefL name=max_item}{l s='You cannot add more than %d product(s) to the product comparison' sprintf=$comparator_max_item js=1}{/addJsDefL}
+{addJsDef comparator_max_item=$comparator_max_item}
+{addJsDef comparedProductsIds=$compared_products}
+
+<script type="text/javascript">
+    var groupCategoryUrl = "{$baseModuleUrl}";    
+</script>

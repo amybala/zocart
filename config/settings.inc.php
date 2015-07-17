@@ -1,0 +1,19 @@
+<?php
+define('_DB_SERVER_', 'localhost');
+define('_DB_NAME_', 'zocart');
+define('_DB_USER_', 'root');
+define('_DB_PASSWD_', '');
+define('_DB_PREFIX_', 'zc_');
+define('_MYSQL_ENGINE_', 'InnoDB');
+define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
+define('_PS_CACHE_ENABLED_', '0');
+define('_MEDIA_SERVER_1_', '');
+define('_MEDIA_SERVER_2_', '');
+define('_MEDIA_SERVER_3_', '');
+define('_COOKIE_KEY_', '5hfFC5WBiwNW0HAI2KZPaW7Bu3DtPA47sBt3pd9JRU3gJkSdQ1auvVoH');
+define('_COOKIE_IV_', 'XY5FF50A');
+define('_PS_CREATION_DATE_', '2015-07-05');
+if (!defined('_PS_VERSION_'))
+	define('_PS_VERSION_', '1.6.0.9');
+define('_RIJNDAEL_KEY_', 'Xk3XTx7ojpnuCw3vqMBLuJbHmvrsJqfj');
+define('_RIJNDAEL_IV_', 'N5+KVd5pK4Mb5FOmsfiKZw==');

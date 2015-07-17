@@ -1,0 +1,18 @@
+Demo Site :
+
+Admin access:
+
+Admin URL: http://ec.jeevavootru.com/admin252015
+
+Admin username: armstrongbalas@gmail.com 	
+Admin Password: Zombie1!
+
+
+
+FTP:
+
+Host: jeevavootru.com
+username: zombian
+pwd:      Zombia1!
+
+
